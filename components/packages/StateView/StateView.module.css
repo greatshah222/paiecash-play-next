@@ -1,0 +1,81 @@
+.stateViewContainer {
+	width: 100%;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+}
+
+.title {
+	position: absolute;
+	top: -35px;
+}
+
+.stateView {
+	border-bottom: 2px solid rgb(249 250 251);
+	color: hsl(215.4 16.3% 46.9%);
+	text-align: center;
+	width: calc(33% - 1em);
+	font-size: 1.5rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stateView:not(:last-child)::before {
+	display: block;
+	content: " \003E";
+
+	height: 2em;
+	width: 2em;
+	line-height: 1em;
+	border-radius: 100%;
+	margin-bottom: 0.25rem;
+	text-align: center;
+	z-index: 1;
+	font-size: 18px;
+	border: 4px solid;
+	padding: 4px;
+	position: absolute;
+	bottom: -20px;
+	right: calc(33% - (33% + 2em));
+	color: rgb(249 250 251);
+}
+.stateViewSelected:not(:last-child)::before {
+	color: var(--brandHover);
+}
+
+.stateView:hover {
+	cursor: pointer;
+}
+
+.stateViewSelected {
+	border-bottom: 2px solid var(--brand);
+	color: var(--brand);
+}
+
+@media (max-width: 550px) {
+	.stateViewContainer {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 90px;
+	}
+	.stateViewContainer > * + * {
+		margin-top: 70px;
+	}
+	.stateView {
+		width: 100%;
+		border-bottom: 0;
+		justify-content: flex-start;
+	}
+
+	.stateView:not(:last-child)::before {
+		top: 70px;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		content: " \25be";
+	}
+}

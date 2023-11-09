@@ -1,0 +1,101 @@
+#popm
+adform.com, 201, DIRECT
+appnexus.com, 8794, DIRECT, f5ab79cb980f11d1
+google.com, pub-5630924555213781, DIRECT, f08c47fec0942fa0
+google.com, pub-6471104209338523, DIRECT, f08c47fec0942fa0
+pubmatic.com, 156050, DIRECT, 5d62403b186f2ace
+pubmatic.com, 159855, DIRECT, 5d62403b186f2ace
+rubiconproject.com, 16184, DIRECT, 0bfd66d529a55807
+rubiconproject.com, 24038, DIRECT, 0bfd66d529a55807
+netricsales.com, 16184, DIRECT
+smartclip.net, 2500, DIRECT
+improvedigital.com, 1854, DIRECT
+indexexchange.com, 195431, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 197010, DIRECT, 50b1c356f2c5c8fc
+pubmatic.com, 161293, DIRECT, 5d62403b186f2ace
+criteo.com, B-062305, DIRECT, 9fac4a4a87c2a44f
+themediagrid.com, XI4GPO, DIRECT, 35d5010d7789b49d
+teads.tv, 26605, DIRECT, 15a9c44f6d26cbe1
+
+teads.tv, 21759, DIRECT, 15a9c44f6d26cbe1
+teads.tv, 7714, DIRECT, 15a9c44f6d26cbe1
+teads.tv, 8208, DIRECT, 15a9c44f6d26cbe1
+adform.com, 2901, RESELLER, 9f5210a2f0999e32
+appnexus.com, 13789, RESELLER
+
+# Begin entries for ShowHeroes Group
+freewheel.tv, 1307119, RESELLER
+freewheel.tv, 1307135, RESELLER
+smartadserver.com, 2161, DIRECT
+google.com, pub-9829476400767085, DIRECT, f08c47fec0942fa0
+adform.com, 2437, RESELLER, 9f5210a2f0999e32
+appnexus.com, 8833, DIRECT, f5ab79cb980f11d1
+freewheel.tv, 1076049, DIRECT
+freewheel.tv, 1076065, RESELLER
+improvedigital.com, 907, RESELLER
+freewheel.tv, 13755, RESELLER
+freewheel.tv, 13945, RESELLER
+adform.com, 1819, RESELLER, 9f5210a2f0999e32
+rubiconproject.com, 18194, DIRECT, 0bfd66d529a55807
+rubiconproject.com, 23550, RESELLER, 0bfd66d529a55807
+pubmatic.com, 156695, DIRECT, 5d62403b186f2ace
+pubmatic.com, 156962, RESELLER, 5d62403b186f2ace
+spotx.tv, 146631, RESELLER, 7842df1d2fe2db34
+spotxchange.com, 146631, RESELLER, 7842df1d2fe2db34
+spotx.tv, 202009, RESELLER, 7842df1d2fe2db34
+spotxchange.com, 202009, RESELLER, 7842df1d2fe2db34
+smartadserver.com, 3668, RESELLER
+smartadserver.com, 2058, RESELLER
+openx.com, 540022851, RESELLER, 6a698e2ec38604c6
+appnexus.com, 9986, RESELLER, f5ab79cb980f11d1
+google.com, pub-7538555282033458, RESELLER, f08c47fec0942fa0
+rubiconproject.com, 16568, RESELLER, 0bfd66d529a55807
+criteo.com, B-062285, DIRECT, 9fac4a4a87c2a44f
+themediagrid.com, JDTGYN, DIRECT, 35d5010d7789b49d
+aps.amazon.com, 5044, DIRECT
+freewheel.tv, 1131585, RESELLER
+freewheel.tv, 1307007, DIRECT
+indexexchange.com, 195921, RESELLER, 50b1c356f2c5c8fc
+rhythmone.com, 609241817, RESELLER, a670c89d4a324e47
+triplelift.com, 10521-EB, RESELLER, 6c33edb13117fd86
+triplelift.com, 10521, RESELLER, 6c33edb13117fd86
+video.unrulymedia.com, 609241817, RESELLER
+yahoo.com, 59361, RESELLER, e1a5b5b6e3255540
+yahoo.com, 59362, RESELLER, e1a5b5b6e3255540
+admanmedia.com, 43, RESELLER
+adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
+appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
+axonix.com, 57264, RESELLER
+contextweb.com, 560288, RESELLER, 89ff185a4c4e857c
+loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
+openx.com, 537149888, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 154037, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156439, RESELLER, 5d62403b186f2ace
+pubmatic.com, 160405, RESELLER, 5d62403b186f2ace
+rhythmone.com, 2564526802, RESELLER, a670c89d4a324e47
+rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
+smartadserver.com, 4012, RESELLER
+smartadserver.com, 4016, RESELLER
+smartadserver.com, 4071, RESELLER
+smartadserver.com, 4073, RESELLER
+smartadserver.com, 4074, RESELLER
+uis.mobfox.com, SM_828, DIRECT, 5529a3d1f59865be
+improvedigital.com, 1895, RESELLER
+richaudience.com, Ua8BIWjxkR, RESELLER
+loopme.com, 11343, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11423, RESELLER, 6c8d5f95897a5a3b
+xandr.com, 8833, DIRECT, f5ab79cb980f11d1
+xandr.com, 8833, RESELLER, f5ab79cb980f11d1
+appnexus.com, 8833, RESELLER, f5ab79cb980f11d1
+
+adform.com, 629, RESELLER
+rubiconproject.com, 16474, RESELLER, 0bfd66d529a55807
+netricsales.com, 16474, RESELLER
+smartadserver.com, 3668, RESELLER
+pubmatic.com, 158930, RESELLER, 5d62403b186f2ace
+
+viralize.com, 6502, DIRECT
+showheroes.com, 6502, DIRECT
+adten.eu, c-831, DIRECT
+adten.eu, 200, DIRECT
+# End entries for Showheroes Group

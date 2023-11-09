@@ -1,0 +1,168 @@
+.ListAllSubOrg_item {
+	/* padding: 20px 20px; */
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	min-height: 350px;
+	background-color: var(--mainWhite);
+	border-radius: 50px;
+	margin: 0 20px;
+	margin-top: 20px;
+}
+
+.secondaryContainer {
+	background-color: var(--mainWhite);
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 0.1fr 4fr;
+	justify-content: center;
+	padding-top: 20px;
+	gap: 20px;
+	align-items: flex-start;
+}
+
+.line {
+	height: 2px;
+	color: white;
+	width: 100%;
+
+	background-color: var(--brandHover);
+}
+.activehash {
+	color: var(--brandHover) !important;
+}
+
+.ListAllSubOrg_name {
+	color: var(--mainBlack);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* margin: 20px 0; */
+	padding: 20px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ListAllSubOrg_image {
+	width: 100%;
+}
+
+.ListAllSubOrg_image:hover {
+	cursor: pointer;
+}
+
+.allLetter {
+	display: flex;
+	align-items: center;
+	margin: 70px auto 30px auto;
+	font-weight: 800;
+	overflow: auto;
+	/* gap: 5px; */
+}
+.allLetter li {
+	text-decoration: none;
+	list-style: none;
+	padding: 2px 8px;
+	cursor: pointer;
+	/* color: var(--mainWhite); */
+}
+.allLetter li a {
+	text-decoration: none;
+	/* color: var(--mainWhite); */
+}
+
+.allLetter_alphabet {
+	margin: 50px auto;
+	padding: 20px 0;
+}
+.allLetter_alphabet a {
+	color: var(--mainBlack) !important;
+	text-decoration: none;
+}
+.allLetter_alphabet_primary {
+	display: flex;
+	width: 100%;
+
+	padding: 20px 10px;
+
+	flex-direction: column;
+}
+
+.item_content:hover {
+	color: var(--card);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.allLetter_alphabet_item_content {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+
+	gap: 30px;
+	flex: 5;
+	text-transform: uppercase;
+	align-items: center;
+	height: auto;
+}
+.allLetter_alphabet_item > * + * {
+	margin-left: 150px;
+}
+.allLetter_alphabet_item a {
+	color: var(--mainBlack);
+	text-decoration: none;
+}
+
+.allLetter_disabled {
+	color: var(--disabled);
+	pointer-events: none;
+}
+.allLetter_disabled a {
+	color: var(--disabled) !important;
+
+	pointer-events: none;
+}
+
+@media (max-width: 550px) {
+	.allLetter {
+		margin: 30px auto 10px auto;
+	}
+	.allLetter_alphabet {
+		margin: 10px auto;
+	}
+	.allLetter_alphabet_item_content {
+		grid-template-columns: 1fr 1fr;
+
+		row-gap: 30px;
+		column-gap: 10px;
+	}
+	.allLetter_alphabet_primary {
+		flex-direction: column;
+
+		padding: 20px 0px;
+	}
+
+	.allLetter_alphabet_item {
+		flex-direction: column;
+		padding: 0px 5px;
+	}
+	.allLetter_alphabet_item > * + * {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+	.ListAllSubOrg_item {
+		margin: 0;
+	}
+
+	.primaryContainer {
+		width: 94%;
+	}
+	.container {
+		grid-template-columns: 0.2fr 4fr;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+}

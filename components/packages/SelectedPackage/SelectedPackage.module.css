@@ -1,0 +1,38 @@
+.selectedPackage > * + * {
+	margin-top: 20px;
+}
+
+.selectedPackagePrimary {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.selectedPackagePrimary > * + * {
+	flex: 1;
+	margin-right: 40px;
+}
+.selectedPackageList_name {
+	flex: 4;
+}
+
+@media (max-width: 550px) {
+	.selectedPackagePrimary {
+		flex-direction: column;
+	}
+	.selectedPackagePrimary > * + * {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+	.selectedPackage {
+		flex-direction: row;
+		align-items: center;
+		padding: 30px 5px;
+	}
+	.selectedPackageList_name {
+		flex: 10;
+	}
+	.selectedPackage > * + * {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,367 @@
+{
+	"addnewgame": {
+		"awayTeamLogoURL": "Vierasjoukkueen logon URL",
+		"createNewGame": "Lisää ottelu",
+		"createSuccess": "Pelin luonti onnistui",
+		"deleteSuccess": "Pelin poistettu onnistui",
+		"description": "Kuvaus",
+		"divisionGame": "Miesten Divari ja Naisten 1. divisioonan pelit lisätään automaattisesti Divari kausipakettiin",
+		"duration": " Kesto",
+		"durationInfo": "Valitse ottelulle vain sen tarvitsema kesto, jotta et varaa kaistaa turhaan muilta striimaajilta.",
+		"editedSuccess": "Pelin muokkaus onnistui",
+		"editGame": "Muokkaa ottelua",
+		"editStartTimeInfo": "Päivämäärää ja aikaa ei voi muuttaa pelin luomisen jälkeen. Poista kellonaika ja luo uusi peli.",
+		"free": "Ilmainen",
+		"gameName": "Ottelun nimi",
+		"gameType": "Ottelun tyyppi",
+		"homeTeamLogoURL": "Kotijoukkueen logon URL",
+		"hour": "tunti",
+		"hours": "tuntia",
+		"invalidDescription": "Anna kuvaus",
+		"invalidduration": "Anna Ottelun kesto",
+		"invalidGameName": "Anna Ottelulle nimi",
+		"invalidGameType": "Valitse ottelun tyyppi",
+		"invalidOpponent": "Valitse vastustaja",
+		"invalidPrice": "Anna Ottelun hinta",
+		"invalidstartTime": "Anna Ottelun aloitusaika",
+		"invalidTeamName": "Valitse joukkue",
+		"lite": "Lite - 3,90 €",
+		"lite+": "Lite+ - 4,90 €",
+
+		"logoUrlFormat": "Logon URL formaatti",
+		"minutes": "minuuttia",
+		"newGameInfo": "Älä luo turhaan otteluita SalibandyTV:seen. Jos jostain syystä ette striimaakaan ottelua SalibandyTV:seen, niin muistattehan poistaa ottelun SalibandyTV:stä.",
+		"noFreeChannels": "Ottelun luonti ei ole mahdollisesti. SalibandyTV kapasiteetti on valitettavasti jo täysin käytössä valitsemanasi aikana",
+		"normal": "Normal - 5,90 €",
+		"normal2": "Normal+ - 6,90 €",
+		"opponent": "Vastustaja",
+		"practiseGame": "Harjoituspeli",
+		"premium": "Premium - 8,90 €",
+		"seasonGame": "Sarjapeli",
+		"selectGame": "Valitse peli",
+		"startTime": "Aloitusaika",
+		"teamName": "Joukkue",
+		"ticketInfo": "Hintaa ei voi muuttaa pelin luomisen jälkeen. Poista ja luo uusi peli ajan muuttamista varten.",
+		"ticketRequired": "Ottelun hinta",
+		"tournament": "Turnaus",
+		"tournamentName": "Turnauksen nimi",
+		"gameAlreadyExists": "Peli on jo olemassa",
+
+		"seriesGameInfo": "Valitse valikosta vierasottelu vain, jos olet saanut kotijoukkueelta luvan striimata."
+	},
+	"clubs": {
+		"searchclub": "Hae klubia nimellä....",
+		"title": "Seurat"
+	},
+	"event": {
+		"buyTicket": "Osta liput",
+		"copiedToClipboard": "Kopioitu leikepöydälle",
+		"days": "Päivää",
+
+		"hours": "Tuntia",
+
+		"minutes": "Minuuttia",
+
+		"presetFileUrl": "Tallenteen videolinkki",
+		"recordingPage": "Tallenteen katselusivu",
+		"seconds": "Sekuntia",
+
+		"streamingAddress": "Striimaus osoite",
+		"streamKey": "Striimin avain"
+	},
+	"events": {
+		"eventsRecording": "Tapahtumien tallennus",
+		"live": "Live",
+		"nogames": "Ei pelejä",
+		"past": "Ottelutallenteet",
+		"upcoming": "Tulevat tapahtumat"
+	},
+	"eventsCategory": {
+		"errorStartEndSame": "Alku- ja loppupäivämäärä eivät voi olla samat"
+	},
+	"footer": {
+		"contact": "Ota yhteyttä",
+		"info": "Info",
+		"privacy": "Yksityisyys",
+		"tos": "Käyttöehdot"
+	},
+	"form": {
+		"club": {
+			"clubCreated": "Klubi luotu",
+			"clubEmail": "Klubin sähköposti",
+			"clubError": "Valitulla seuralla ei ole hallintakäyttäjäiä",
+			"clubName": "Klubin nimi",
+			"creatingClub": "Luodaan seuraa",
+			"creatingClubMessage1": "Olethan kärsivällinen sillä seuran luonti voi kestää jopa minuutin.",
+			"creatingClubMessage2": "Älä sulje selainta tässä välissä!",
+			"helpText": "Seuralle luodaan hallintakäyttäjä samalla sähköpostiosoitteella",
+			"invalidClubName": "Anna seuran nimi"
+		},
+		"password": {
+			"changedSuccess": "Salasana vaihdettu",
+			"changePassword": "Vaihda salasana",
+			"emailDoesnotExist": "Antamaasi sähköpostiosoitetta ei löydy järjestelmästämme. Ole hyvä, tarkasta ja yritä uudelleen.",
+			"enterNewPassword": "Uusi salasana",
+			"enterOldPassword": "Vanha salasana",
+			"enterPassword": "Anna salasana",
+			"enterPasswordAgain": "Uusi salasana uudelleen",
+
+			"forgotPassword": "Unohtuiko salasana?",
+			"getNewEmail": "Lähetä uusi sähköposti painamalla alla olevaa painiketta",
+			"invalidLink": "Virheellinen linkki",
+			"newPassword": "Uusi salasana",
+			"newPasswordRequired": "Anna Uusi salasana",
+			"oldPassword": "Vanha salasana",
+			"oldPasswordRequired": "OAnna vanha salasana",
+			"password": "Salasana",
+
+			"passwordChangedSuccess": "Salasana vaihdettu",
+
+			"passwordConfirm": "Vahvista salasana",
+
+			"passwordLinkMsg": "Tarkista sähköpostistasi linkki salasanan vaihtoon. Jos se ei näy muutaman minuutin kuluessa, tarkista roskapostikansiosi.",
+			"passwordLinkSent": "Salasanan palautuslinkki lähetetty",
+			"passwordMismatch": "Salasanat eivät täsmää",
+
+			"passwordRequired": "Salasana tarvitaan",
+			"requestResetPassword": "Pyydä salasanan palautuslinkkiä",
+
+			"tokenExpired": "Salasanan palautuslinkki on vanhentunut tai virheellinen",
+			"forgotAdminPassword": "Unohtuiko striimaaja-salasana?",
+			"forgotUserPassword": "Unohtuiko käyttäjä-salasana?",
+			"resetEmailInstruction": "Anna sähköpostiosoitteesi, niin lähetämme sinulle linkin salasanan vaihtamiseen."
+		},
+		"profile": {
+			"address": "Lähiosoite",
+
+			"city": "Kaupunki",
+
+			"editAdminDetails": "Muokkaa tietoja",
+
+			"enterAddress": "Anna lähiosoite",
+
+			"enterCity": "Anna kaupunki",
+			"enterFirstName": "Anna etunimi",
+			"enterlastName": "Anna sukunimi",
+			"enterPostal": "Anna postinumero",
+			"firstName": "Etunimi",
+			"lastName": "Sukunimi",
+			"postal": "Postinumero",
+
+			"info": "Tiedot päivitetty",
+			"userDetailTitle": "Käyttäjätiedot"
+		},
+		"user": {
+			"admin": "Striimaajana",
+			"adminCreated": "striimaajana",
+			"agreeOnTerms": "Rekisteröitymällä hyväksyt tietosuojaehtomme",
+			"alreadyHaveAccount": "Onko sinulla jo tili ? ",
+
+			"createNewAdmin": "Lisää Striimaaja",
+
+			"email": "Sähköpostiosoite",
+			"enterEmail": "Anna sähköpostiosoite",
+
+			"enterValidEmail": "Anna sähköpostiosoite",
+
+			"newUserSite": "Oletko uusi käyttäjä ? ",
+
+			"loginAsAdmin": "Kirjaudu striimaajana ?",
+
+			"loginAsUser": "Kirjaudu käyttäjänä ?",
+
+			"profileUpdated": "Profiili päivitetty",
+
+			"superAdmin": "Super Admin",
+			"user": "Käyttäjä"
+		}
+	},
+	"modal": {
+		"alertModal": {
+			"actionUndone": "Tätä toimintoa ei voi kumota",
+			"areyousure": "Oletko varma?"
+		}
+	},
+	"navigation": {
+		"adminSidebar": {
+			"addNewAdmin": "Lisää Striimaaja",
+			"addNewGame": "Lisää ottelu",
+			"adminUsers": "Striimaajat",
+			"analytics": "Analytiikka",
+			"dashboard": "Hallintapaneeli",
+			"games": "Ottelut",
+			"gamesAnalytics": "Otteluiden analytiikka",
+			"pastEvents": "Ottelutallenteet",
+			"settings": "Asetukset",
+			"users": "Käyttäjät",
+			"vismaSubID": "Visma Submerchant ID"
+		},
+		"auth": {
+			"dashboard": "Hallintapaneeli",
+
+			"login": "Kirjaudu sisään",
+			"logout": "Kirjaudu ulos",
+			"profile": "Profiili",
+			"register": "Rekisteröidy"
+		},
+		"clubSwitcher": {
+			"noClubFound": "Klubia ei löytynyt.",
+			"searchClub": "Hae klubi ..."
+		},
+		"navbar": {
+			"clubs": "Seurat",
+			"events": "Tapahtumat",
+			"info": "Info",
+			"search": "Haku"
+		}
+	},
+	"packages": {
+		"Bought": "Ostettu",
+		"buyTicket": "Osta lippu",
+		"Cancel": "Peruuta",
+		"GiveVoucherCode": "Etukuponki",
+		"IncludeVat": "Sis. {{taxPerc}}% {{taxType}}",
+		"LoggedInAs": "Olet kirjautunut sisään käyttäjänimellä",
+		"Ok": "Ok",
+		"Order": "Tilaa",
+		"PackageChoosePackage": "Valitse tuote",
+		"PackageHelpEmail": "Lippusi lähetetään sähköpostiisi! Muista tarkistaa roskapostit.Liput ja tilaukset löytyvät profiilisi ",
+		"PackageHelpText": "Alta löydät tilattavissa olevat tuotteet",
+		"PackageHelpText2": "Kun olet valinnut haluamasi tuotteen, sinun tulee valita maksutapa. Tilaus tulee voimaan onnistuneen maksusuorituksen jälkeen.",
+
+		"PackageHelpText3": "Huom! Ostoksesi prosessointiin kuluu normaalisti 5-10 minuuttia, jonka jälkeen pääset nauttimaan salibandysta!",
+		"PackageHelpTitle": "",
+		"PackageLoginForAccess": "Kirjaudu ostaaksesi lippuja. Lippusi lähetetään sähköpostiisi.",
+		"PackagePayment": "Maksu",
+		"PackagePaymentHelp": "Voit maksaa alla olevilla maksutavoilla.",
+		"PackagePaymentMethods": "Valitse maksutapa.",
+		"PackageProfileLink": "Tilaukset",
+		"PackageReceipt": "Vahvistus",
+		"PackageUserNotLoggedIn": "Huomio: Sinun täytyy kirjautua sisään tai rekisteröityä, ennenkuin voit jatkaa.",
+		"page": "sivulta",
+		"Pending": "Odottaa",
+		"price": "Hinta",
+		"productName": "Tuotteen nimi",
+		"PurchaseErrorCode18": "Käyttäjällä on jo tämä tuote",
+		"PurchaseErrorCode19": "Virhe ostotapahtumassa. Palaa takaisin 'Valitse tuote' -sivulle ja valitse tuote uudelleen.",
+		"PurchaseErrorCode27": "Päällekkäinen maksutapahtuma. Käyttäjä osti tämän tuotteen aiemmin (Tämä virheilmoitus voi myös tulla jos latasit tämän sivun uudelleen)",
+		"PurchaseErrorCode28": "Käyttäjä perui ostoksen",
+		"quantity": "Määrä",
+		"ReceiptMoveToFront": "Palaa etusivulle",
+		"ReceiptMoveToOrig": "Palaa videosivulle",
+		"ReceiptPurchaseFailed": "Ostotapahtuma epäonnistui",
+		"ReceiptText": "",
+		"ReceiptThank": "Kiitos ostoksestasi, voit halutessasi palata etusivulle.",
+		"SelectPaymentClub": "Valitse seura, jolle haluatte ohjata kausimaksun",
+		"totalPrice": "Kokonaishinta",
+		"vat": "ALV",
+		"VoucherCheckCode": "Tarkista etukuponki",
+		"VoucherErrorCode20": "Etukuponkia ei löydy",
+		"VoucherErrorCode21": "Etukuponki on jo käytetty",
+		"VoucherErrorCode22": "Etukuponki on vanhentunut",
+		"VoucherErrorCode23": "Etukuponki liittyy toiseen tuotteeseen",
+		"VoucherTitle": "Anna etukuponki"
+	},
+	"players": {
+		"close": "Sulje",
+		"customErrorMessage": "This content is currently unavailable.",
+		"noSupportDownload": "You may download video by clicking on that link",
+		"noSupportInstallChrome": "",
+		"noSupportInstallChromeLink": "https://www.google.com/chrome/",
+		"noSupportMessage": "Stream is not available, Please try again shortly.",
+		"notStreamingMessage": "Lähetys ei ole katsottavissa. Joko A) Ottelu ei ole vielä alkanut tai sen lähetys on päättynyt tai B) Lähetyksessä on teknistä häiriötä.",
+		"reloadStream": "Lataa stream uudelleen",
+		"showPlayer": "Näytä video",
+		"canCheckAgain": " Tarkista uudelleen ",
+		"nSeconds": "sekunnin kuluttua"
+	},
+	"reactDateRange": {
+		"daysStartingToday": "Päivät alkavat tänään",
+		"daysUpToToday": "Päivää tähän päivään",
+		"lastMonth": "viime kuukausi",
+		"lastWeeek": "Viime viikko",
+		"thisMonth": "tässä kuussa",
+		"thisWeek": "Tämä viikko",
+		"today": "Tänään",
+		"yesterday": "Eilen"
+	},
+	"scoreboard": {
+		"clockIs": "Kello on",
+		"enterTeamNames": "Lisää joukkueiden nimet",
+		"minute": "Minuutit",
+		"noStreamingBeforeScoreboardError": "Aloita suoratoisto ennen pistetaulun käyttöä",
+		"running": "käynnissä",
+		"score": "Pisteet",
+		"second": "Sekunnit",
+		"selectPeriod": " Valitse erä",
+		"showPeriod": "Näytä erä",
+		"showScore": "Näytä pisteet",
+		"showScoreboard": "Näytä pistetaulu",
+		"start": "Päälle",
+		"stop": "lopettaa",
+		"stopped": "pysähtynyt",
+		"update": "Päivitä",
+		"useScoreboard": "Käytä pistetaulua",
+
+		"awayTeam": "Vierasjoukkue",
+		"confirmTeamName": "Vahvista joukkueen nimi",
+		"homeTeam": "Kotijoukkueen",
+		"scoreboardItem": {
+			"info": "**Suoratoiston päivityksessä voi olla viivettä. Odota korkeintaan 1 minuutti, jotta muutokset tulevat näkyviin"
+		},
+
+		"teamNameDisplayedScoreboard": "Tämä nimi näkyy tulostaulukossa"
+	},
+	"search": {
+		"searchByName": "Etsi nimellä...",
+		"searchByEmail": "Hae sähköpostilla..."
+	},
+	"serieSelector": {
+		"title": "Sarjavalitsin"
+	},
+	"settings": {
+		"visma": {
+			"helpText": "Huom! Tärkeä ohje: seuran oikea Submerchant ID -tunnus eli alikauppiastunnus löytyy Visma Payn kauppiasportaalista alasivulta Submerchant (ENG) / Alikauppiaat (FIN). Siellä on viisinumeroinen tunnus nimellä Submerchant-ID / Alikauppiastunnus – tämä tulee syöttää tälle SalibandyTV:n sivulle, muuten maksullisuus ei toimi oikein! Älä siis käytä seuran Visma Pay -kauppiastunnusta vaan alikauppiastunnusta.",
+
+			"submerchantId": "Visma Submerchant ID",
+			"updateFailure": "Asetusten tallennus epäonnistui",
+			"updateSuccess": "Asetusten tallennus onnistui"
+		}
+	},
+	"shared": {
+		"authenticateToAccess": "Todennus päästäksesi sisältöön",
+		"cancel": "Peruuta",
+
+		"clickHere": "klikkaa tästä",
+		"confirm": "Vahvista",
+
+		"continue": "Jatkaa",
+		"create": "Luo",
+
+		"deletedSuccessfully": "Poistettu onnistuneesti.",
+		"errorGeneric": "Jotain meni vikaan, yritä uudelleen",
+		"home": "Etusivu",
+		"loading": "ladataan",
+
+		"login": "Kirjaudu sisään",
+		"next": "Seuraava",
+		"noresult": "Ei tulosta",
+		"previous": "Edellinen",
+		"save": "Tallenna",
+		"signUp": "Rekisteröidy",
+		"submit": "Seuraava",
+		"viewAll": "Näytä kaikki",
+		"watch": "Katso"
+	},
+	"userprofile": {
+		"changePassword": "Vaihda salasana",
+		"dashboard": "Dashboard",
+		"subscription": "Tilaukset",
+
+		"subscriptions": {
+			"nosubscription": "Ei tilausta",
+			"singlePurchase": "Yksittäinen osto"
+		},
+		"userDetail": "Käyttäjätiedot"
+	}
+}

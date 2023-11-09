@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 222.2 84% 4.9%;
+
+		--muted: 210 40% 96.1%;
+		--muted-foreground: 215.4 16.3% 46.9%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 222.2 84% 4.9%;
+
+		--card: 0 0% 100%;
+		--card-foreground: 222.2 84% 4.9%;
+
+		--border: 214.3 31.8% 91.4%;
+		--input: 214.3 31.8% 91.4%;
+
+		--primary: 140 44% 52%;
+
+		--primary-foreground: 210 40% 98%;
+
+		--secondary: 210 40% 96.1%;
+		--secondary-foreground: 222.2 47.4% 11.2%;
+
+		--accent: 210 40% 96.1%;
+		--accent-foreground: 222.2 47.4% 11.2%;
+
+		--destructive: 0 84.2% 60.2%;
+		--destructive-foreground: 210 40% 98%;
+
+		--ring: 215 20.2% 65.1%;
+
+		--radius: 0.5rem;
+		--mainWhite: rgb(255, 255, 255);
+		--mainBlack: #001f3f;
+
+		--white: var(--mainWhite);
+		--black: var(--mainBlack);
+
+		--background: var(--brand);
+		--cardbackground: rgba(0, 0, 0, 0.6);
+		--card: rgb(0, 207, 255) !important;
+		--red: #ab0303;
+		--disabledText: #a1a9b0;
+		--disabled: #a1a9b0;
+		--mainActive: grey;
+
+		--itemTitle: var(--brand);
+		--categorytitle: #fdfdfd;
+
+		--brand: rgb(79, 186, 115);
+
+		--brandHover: #bc7af9 !important;
+		--brandPressed: #172bb5;
+
+		--icon: hsl(209, 61%, 16%);
+		--itemTitleEvent: var(--mainWhite);
+
+		--mainCategoryViewAll: var(--mainWhite);
+		--mainCategoryViewAllHover: var(--brandHover);
+
+		--modalBackground: rgba(10, 10, 10, 0.5);
+	}
+
+	.dark {
+		--background: 222.2 84% 4.9%;
+		--foreground: 210 40% 98%;
+
+		--muted: 217.2 32.6% 17.5%;
+		--muted-foreground: 215 20.2% 65.1%;
+
+		--popover: 222.2 84% 4.9%;
+		--popover-foreground: 210 40% 98%;
+
+		--card: 222.2 84% 4.9%;
+		--card-foreground: 210 40% 98%;
+
+		--border: 217.2 32.6% 17.5%;
+		--input: 217.2 32.6% 17.5%;
+
+		--primary: 140 44% 52%;
+
+		--primary-foreground: 222.2 47.4% 11.2%;
+
+		--secondary: 217.2 32.6% 17.5%;
+		--secondary-foreground: 210 40% 98%;
+
+		--accent: 217.2 32.6% 17.5%;
+		--accent-foreground: 210 40% 98%;
+
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 0 85.7% 97.3%;
+
+		--ring: 217.2 32.6% 17.5%;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		background-color: var(--mainWhite);
+		color: var(--mainWhite);
+	}
+}
+
+html,
+body,
+:root {
+	height: 100%;
+}
+
+.qc-cmp2-container {
+	pointer-events: all !important;
+}
+.form-primary {
+	@apply max-w-[600px] lg:w-[600px] lg:max-w-[600px] !important;
+}
+
+.sidebar-container {
+	@apply hidden h-full md:flex md:w-72 md:flex-col md:fixed top-[80px] p-0;
+}
+
+.main-container {
+	@apply bg-white  md:ml-72 absolute inset-0 top-0 md:top-[80px];
+}
+
+.navbar_route {
+	@apply text-lg font-medium transition-colors hover:text-primary font-probold border-b md:border-none w-full md:w-auto text-right  md:text-start shadow-sm md:shadow-none h-[50px] md:h-auto pr-4 md:pr-0 flex justify-end items-center md:block;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 50px white inset;
+	-webkit-text-fill-color: var(--black);
+}
+.react-datepicker-wrapper {
+	width: 100% !important;
+}
+
+@layer utilities {
+	.css-invert {
+		@apply invert-[50%] brightness-200;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar {
+		padding-top: 5px;
+		width: 3px;
+		height: 3px;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar-track {
+		background: #09090a;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar-thumb {
+		background: var(--brandHover);
+		border-radius: 50px;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+		background: #7878a3;
+	}
+}

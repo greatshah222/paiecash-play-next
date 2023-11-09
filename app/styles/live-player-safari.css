@@ -1,0 +1,51 @@
+/* // raidant meida player custom note for safari
+ */
+.rmp-custom-overlay {
+	background: rgba(33, 33, 33, 0.85);
+	color: white;
+	position: absolute;
+	left: 2px;
+	/* top: 8px; */
+
+	bottom: 40px;
+	left: 0;
+
+	right: 0px;
+	font-size: 12px;
+	/* padding: 8px; */
+	text-align: center;
+	/* border-radius: 4px; */
+	height: 40px;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.rmp-custom-overlay > div {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	padding-top: 5px !important;
+}
+
+.rmp-custom-overlay {
+	-webkit-transition-property: opacity, visibility;
+	-moz-transition-property: opacity, visibility;
+	transition-property: opacity, visibility;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-timing-function: ease-in;
+	-moz-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+
+.rmp-chrome .rmp-custom-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+
+.rmp-no-chrome .rmp-custom-overlay {
+	opacity: 0;
+	visibility: hidden;
+}

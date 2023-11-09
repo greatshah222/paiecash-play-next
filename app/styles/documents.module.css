@@ -1,0 +1,66 @@
+.container {
+	flex-grow: 1;
+
+	/* // THIS IS GRAY-700 */
+	color: rgb(55 65 81);
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0 !important;
+}
+
+.ol {
+	list-style: auto;
+}
+.ul {
+	list-style: auto;
+}
+
+.ol li,
+.ul li {
+	/* list-style: auto; */
+	margin-top: 5px;
+}
+
+.text {
+	line-height: 28px;
+	margin: 10px 0;
+	font-family: var(--font-regular);
+}
+
+.subtext {
+	font-size: 14px;
+}
+.title {
+	font-family: var(--font-pro-bold);
+	padding-bottom: 10px;
+	font-size: 18px;
+	color: var(--brand);
+}
+
+.subtitle {
+	font-family: var(--font-pro-bold);
+
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: var(--brand);
+}
+
+.text a,
+.span a {
+	border-bottom: 1px solid var(--brand);
+}
+
+.padded {
+	padding-left: 1%;
+}
+.padded li {
+	padding: 5px 0;
+}
+
+.span {
+	margin: 5px 0;
+}
+
+.title ul {
+	margin: 5px 0;
+}
