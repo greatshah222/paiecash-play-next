@@ -36,8 +36,7 @@ export const usePlayerSetting = () => {
 		height: "360px",
 		// baackground for the whole page
 		playerbackgroundImage:
-			// "https://icareus-cache.secure2.footprint.net/salibandytv/players/loading.svg",
-			"https://icareus-cache.secure2.footprint.net/elonet/players/playerLoading.svg",
+			"https://icareus-cache.secure2.footprint.net/paiecashplay/players/loading.svg",
 
 		// containerbackgroundImage means poster image
 		containerbackgroundImage: "",

@@ -1,22 +1,18 @@
 const AppConfig = {
-	BASE_URL: "https://my.icareus.com/api",
+	BASE_URL: "https://suite.icareus.com/api",
 	BASE_URL_MY: "https://my.icareus.com/api",
-	// BASE_URL: "https://suiterc.icareus.com/api",
-	// BASE_URL_MY: "https://suiterc.icareus.com/api",
 	BASE_URL_SUITERC: "https://suiterc.icareus.com",
 
-	BASE_URL_CDN: "https://icareus-suite.secure2.footprint.net/api",
-	BASE_URL_SALIBANDY: "https://salibandytv.icareus.com/api",
 	organization: {
-		// organizationId: 263559910,
-		// key: "fjJZ82HdU2",
-		// companyId: 10154,
-		// groupId: 263559911,
-
-		organizationId: 181282321,
-		key: "XqjVf6W8yu",
+		organizationId: 263559910,
+		key: "fjJZ82HdU2",
 		companyId: 10154,
-		groupId: 181282322,
+		groupId: 263559911,
+
+		// organizationId: 181282321,
+		// key: "XqjVf6W8yu",
+		// companyId: 10154,
+		// groupId: 181282322,
 
 		// organizationId: 4692809,
 
@@ -38,7 +34,7 @@ const AppConfig = {
 		// companyId: 10154,
 		// groupId: 1909010,
 
-		name: "SalibandyTv",
+		name: "Paiecashplay",
 		language: "fi_FI",
 		torneopalSeasonId: "2023-2024",
 	},

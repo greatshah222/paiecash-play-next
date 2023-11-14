@@ -6,9 +6,6 @@ import Container from "./ui/container";
 import Translations from "./Translations";
 import Logo from "./Navbar/logo";
 
-import { deviceHandler, loadAds } from "@/utils/ads";
-import { useEffect, useState } from "react";
-
 const ALL_PARTNERS = [
 	{
 		id: 1,
@@ -105,18 +102,6 @@ const SOME = [
 ];
 
 const Footer = () => {
-	const [isLoading, setIsLoading] = useState(true);
-	useEffect(() => {
-		deviceHandler();
-
-		setTimeout(() => {
-			loadAds();
-			setIsLoading(false);
-		}, 1000);
-	}, []);
-
-	if (isLoading) return null;
-
 	return (
 		<footer className="bg-brand">
 			{/* //powered by  */}
@@ -163,7 +148,7 @@ const Footer = () => {
 					</div>
 
 					<div className="flex justify-center items-center">
-						<Logo src={"/images/default/logo-white.png"} />
+						<Logo src={"/images/default/logo-white.svg"} />
 					</div>
 
 					<div className="flex flex-col gap-2 sm:gap-3 items-end">

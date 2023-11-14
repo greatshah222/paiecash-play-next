@@ -29,8 +29,8 @@
 		"lite+": "Lite+ - 4,90 €",
 		"logoUrlFormat": "Format URL du Logo",
 		"minutes": "Minutes",
-		"newGameInfo": "Ne créez pas de matchs sur SalibandyTV pour rien. Si pour une raison quelconque vous ne diffusez pas le match sur SalibandyTV, n'oubliez pas de supprimer le match de SalibandyTV.",
-		"noFreeChannels": "La création d'un nouveau Match a échoué. Les disponibilités sur SalibandyTV sont presque complètes à la date et à l'heure demandées",
+		"newGameInfo": "Ne créez pas de matchs sur Paiecashplay pour rien. Si pour une raison quelconque vous ne diffusez pas le match sur Paiecashplay, n'oubliez pas de supprimer le match de Paiecashplay.",
+		"noFreeChannels": "La création d'un nouveau Match a échoué. Les disponibilités sur Paiecashplay sont presque complètes à la date et à l'heure demandées",
 		"normal": "Normal - 5,90 €",
 		"normal2": "Normal+ - 6,90 €",
 		"opponent": "Adversaire",
@@ -203,7 +203,7 @@
 		"PackageHelpText": "Vous trouverez ci-dessous les produits pouvant être commandés",
 		"PackageHelpText2": "Une fois que vous aurez sélectionné le produit souhaité, vous devrez sélectionner un mode de paiement. La commande entrera en vigueur après un paiement réussi.",
 
-		"PackageHelpText3": "Note! Le traitement de votre achat prend généralement 5 à 10 minutes, après quoi vous pouvez commencer à regarder votre (vos) Match(s) sur SalibandyTV !",
+		"PackageHelpText3": "Note! Le traitement de votre achat prend généralement 5 à 10 minutes, après quoi vous pouvez commencer à regarder votre (vos) Match(s) sur Paiecashplay !",
 		"PackageHelpTitle": "",
 		"PackageLoginForAccess": "Veuillez vous connecter pour acheter des billets. Votre billet sera envoyé à l'adresse e-mail de connexion.",
 		"PackagePayment": "Paiement",
@@ -293,7 +293,7 @@
 	},
 	"settings": {
 		"visma": {
-			"helpText": "Note! Instruction importante : l'identifiant Submerchant ID correct du club peut être trouvé sur le portail marchand de Visma Pay, à partir de la sous-page Submerchant (ENG) / Alikauppiaat (FIN). Développez davantage jusqu'à l'identifiant Submerchant-ID / Submerchant ID - celui-ci doit être saisi sur la page de SalibandyTV, sinon le système de paiement ne fonctionnera pas correctement ! N'utilisez donc pas l'identifiant marchand Visma Pay du club, mais l'identifiant sub-merchant ID.",
+			"helpText": "Note! Instruction importante : l'identifiant Submerchant ID correct du club peut être trouvé sur le portail marchand de Visma Pay, à partir de la sous-page Submerchant (ENG) / Alikauppiaat (FIN). Développez davantage jusqu'à l'identifiant Submerchant-ID / Submerchant ID - celui-ci doit être saisi sur la page de Paiecashplay, sinon le système de paiement ne fonctionnera pas correctement ! N'utilisez donc pas l'identifiant marchand Visma Pay du club, mais l'identifiant sub-merchant ID.",
 			"submerchantId": "Visma Submerchant ID",
 			"updateFailure": "Mise à jour a échoué.",
 			"updateSuccess": "Mis à jour avec succés."

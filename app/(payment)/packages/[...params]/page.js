@@ -6,8 +6,8 @@ import PackageClient from "./component/package-client";
 import ReceiptPage from "@/app/(payment)/packages/[...params]/component/receipt";
 
 export const metadata = {
-	title: "Payment-SalibandyTv",
-	description: "Payment-SalibandyTv",
+	title: "Payment-Paiecashplay",
+	description: "Payment-Paiecashplay",
 };
 
 const PackagesPage = async ({ params: { params }, searchParams }) => {

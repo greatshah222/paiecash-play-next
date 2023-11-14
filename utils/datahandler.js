@@ -65,7 +65,7 @@ export const getFilteredGames = (organizationId, limit, from, to) => {
 
 export const getAllGamesFilter = async (organizationId) => {
 	try {
-		let url = `${AppConfig.BASE_URL_CDN}/games?organizationId=${organizationId}&action=getFilters`;
+		let url = `${AppConfig.BASE_URL}/games?organizationId=${organizationId}&action=getFilters`;
 
 		return axios.get(url);
 	} catch (error) {
@@ -74,12 +74,10 @@ export const getAllGamesFilter = async (organizationId) => {
 	}
 };
 
-export const getChannels = async (organizationId, secret, USE_CDN_URL) => {
+export const getChannels = async (organizationId, secret) => {
 	try {
 		return await axios.get(
-			`${
-				USE_CDN_URL ? AppConfig.BASE_URL_CDN : AppConfig.BASE_URL_SALIBANDY
-			}/organization?action=getOrganization&version=04&organizationId=${organizationId}&includeSubOrganizations=true&token=${secret}`
+			`${AppConfig.BASE_URL}/organization?action=getOrganization&version=04&organizationId=${organizationId}&includeSubOrganizations=true&token=${secret}`
 		);
 	} catch (error) {
 		console.log(error);
@@ -89,7 +87,7 @@ export const getChannels = async (organizationId, secret, USE_CDN_URL) => {
 export const getSingleEvent = async (organizationId, eventId) => {
 	try {
 		return await axios.get(
-			`${AppConfig.BASE_URL_SALIBANDY}/events?action=getEvent&version=02&organizationId=${organizationId}&eventId=${eventId}`
+			`${AppConfig.BASE_URL}/events?action=getEvent&version=02&organizationId=${organizationId}&eventId=${eventId}`
 		);
 	} catch (error) {}
 };

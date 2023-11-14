@@ -29,8 +29,8 @@
 		"lite+": "Lite+ - 4,90 €",
 		"logoUrlFormat": "Logo URL format",
 		"minutes": "Minutes",
-		"newGameInfo": "Do not create matches on SalibandyTV for nothing. If for some reason you don't stream the match to SalibandyTV, remember to delete the match from SalibandyTV.",
-		"noFreeChannels": "Creating a new game failed. SalibandyTV capacity is all ready full on the given date and time",
+		"newGameInfo": "Do not create matches on Paiecashplay for nothing. If for some reason you don't stream the match to Paiecashplay, remember to delete the match from Paiecashplay.",
+		"noFreeChannels": "Creating a new game failed. Paiecashplay capacity is all ready full on the given date and time",
 		"normal": "Normal - 5,90 €",
 		"normal2": "Normal+ - 6,90 €",
 		"opponent": "Opponent",
@@ -203,7 +203,7 @@
 		"PackageHelpText": "Below you will find the products that can be ordered",
 		"PackageHelpText2": "Once you have selected the product you want, you will need to select a payment method. The order will come into effect after a successful payment.",
 
-		"PackageHelpText3": "Note! It usually takes 5-10 minutes to process your purchase, after which you can start watching your game(s) on SalibandyTV!",
+		"PackageHelpText3": "Note! It usually takes 5-10 minutes to process your purchase, after which you can start watching your game(s) on Paiecashplay!",
 		"PackageHelpTitle": "",
 		"PackageLoginForAccess": "Please Login to Buy Tickets.Your Ticket will be Sent to LoggedIn Email",
 		"PackagePayment": "Payment",
@@ -293,7 +293,7 @@
 	},
 	"settings": {
 		"visma": {
-			"helpText": "Note! Important instruction: the club's correct Submerchant ID can be found from Visma Pay's merchant portal, from the sub-page Submerchant (ENG) / Alikauppiaat (FIN). expand  further to the identifier Submerchant-ID / Submerchant ID - this should be entered to SalibandyTV's page, otherwise the payment system won't work properly! So don't use the club's Visma Pay merchant ID, but the sub-merchant ID.",
+			"helpText": "Note! Important instruction: the club's correct Submerchant ID can be found from Visma Pay's merchant portal, from the sub-page Submerchant (ENG) / Alikauppiaat (FIN). expand  further to the identifier Submerchant-ID / Submerchant ID - this should be entered to Paiecashplay's page, otherwise the payment system won't work properly! So don't use the club's Visma Pay merchant ID, but the sub-merchant ID.",
 			"submerchantId": "Visma Submerchant ID",
 			"updateFailure": "Update failed.",
 			"updateSuccess": "Updated Successfully."

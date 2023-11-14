@@ -6,7 +6,7 @@ import { useState } from "react";
 const ClubBanner = ({ orgId, organizationName }) => {
 	/// TODO CHANGE SRC TO USE CDN
 	const [src, setSrc] = useState(
-		`https://icareus-cache.secure2.footprint.net/salibandytv/banners/${orgId}.jpg`
+		`https://icareus-cache.secure2.footprint.net/paiecachplay/banners/${orgId}.jpg`
 	);
 
 	return (
@@ -14,7 +14,7 @@ const ClubBanner = ({ orgId, organizationName }) => {
 			<Image
 				src={src}
 				onError={() =>
-					setSrc("https://icareus-cache.secure2.footprint.net/salibandytv/banners/default.jpg")
+					setSrc("https://icareus-cache.secure2.footprint.net/paiecashplay/banners/default.png")
 				}
 				width={1920}
 				height={520}

@@ -9,8 +9,6 @@ export const metadata = {
 	description: "Clubs",
 };
 
-const USE_CDN_URL = true;
-
 const ClubsPage = async () => {
 	const res = await getChannels(
 		AppConfig.organization.organizationId,

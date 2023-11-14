@@ -63,7 +63,7 @@ const SignupForm = ({ state, InputHandler, formSubmitHandler, loading, role }) =
 			<Button
 				className={`w-full  min-h-[50px] text-md rounded-full font-probold`}
 				disabled={!state.isValid || loading}
-				aria-label="Login to Salibandytv"
+				aria-label="Login to Paiecashplay"
 			>
 				{loading ? <Translations text="shared.loading" /> : t("navigation.auth.register")}
 			</Button>

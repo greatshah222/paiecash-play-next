@@ -6,8 +6,8 @@ import SignupAuth from "../components/signup-auth";
 import { ACTIONS } from "@/constants/action";
 
 export const metadata = {
-	title: "Register to Salibandytv",
-	description: "Register to Salibandytv",
+	title: "Register to Paiecashplay",
+	description: "Register to Paiecashplay",
 };
 const SignupPage = async () => {
 	const session = await getServerSession(authOptions);

@@ -241,7 +241,7 @@ export const Input = ({
 					value={value}
 					name={id}
 					rows={rows || 3}
-					className={`${classes.input_text} rounded-full regular `}
+					className={`${classes.input_text} rounded-full regular text-black `}
 				/>
 				{labelInfo && (
 					<p

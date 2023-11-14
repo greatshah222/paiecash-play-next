@@ -155,27 +155,10 @@ export default function LivePlayer({
 
 					hlsJSCustomConfig: hlsJSCustomConfig,
 
-					// https://www.radiantmediaplayer.com/docs/latest/media-preloading.html  we are changing the preload from smart to auto ->need to test what advantage it brings to the table
 					preload: "auto",
 
 					asyncElementID: rmpPlayer?.current.id,
 				};
-				// if (browser) {
-				// 	if (browser.name === "safari") {
-				// 		// we define our custom overlay div element
-				// 		const rmpContainer = document.getElementById("rmpLivePlayer");
-				// 		const rmpCustomOverlay = document.createElement("div");
-				// 		rmpCustomOverlay.className = "rmp-custom-overlay";
-
-				// 		const customText = document.createElement("div");
-				// 		customText.textContent =
-				// 			"Kehitämme jatkuvasti SalibandyTV:tä, jos lähetys kuitenkin pysähtelee niin suosittelemme kokeilemaan toisella selaimella esim. Google Chrome tai MS Edge ";
-				// 		rmpCustomOverlay.appendChild(customText);
-				// 		rmpContainer.addEventListener("ready", () => {
-				// 			rmpContainer.appendChild(rmpCustomOverlay);
-				// 		});
-				// 	}
-				// }
 
 				window._icareus.playerObject.init(settings);
 				setRadiantMediaPlayerObject(window._icareus.playerObject);

@@ -9,7 +9,7 @@ const Logo = ({ src, className }) => {
 	return (
 		<Image
 			className={cn("hover:cursor-pointer md:mr-5", className)}
-			src={src ? src : "/images/default/logo.png"}
+			src={src ? src : "/images/default/logo.svg"}
 			width={120}
 			height={80}
 			alt="paiecash logo"

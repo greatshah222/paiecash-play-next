@@ -30,8 +30,8 @@
 
 		"logoUrlFormat": "Logon URL formaatti",
 		"minutes": "minuuttia",
-		"newGameInfo": "Älä luo turhaan otteluita SalibandyTV:seen. Jos jostain syystä ette striimaakaan ottelua SalibandyTV:seen, niin muistattehan poistaa ottelun SalibandyTV:stä.",
-		"noFreeChannels": "Ottelun luonti ei ole mahdollisesti. SalibandyTV kapasiteetti on valitettavasti jo täysin käytössä valitsemanasi aikana",
+		"newGameInfo": "Älä luo turhaan otteluita Paiecashplay:seen. Jos jostain syystä ette striimaakaan ottelua Paiecashplay:seen, niin muistattehan poistaa ottelun Paiecashplay:stä.",
+		"noFreeChannels": "Ottelun luonti ei ole mahdollisesti. Paiecashplay kapasiteetti on valitettavasti jo täysin käytössä valitsemanasi aikana",
 		"normal": "Normal - 5,90 €",
 		"normal2": "Normal+ - 6,90 €",
 		"opponent": "Vastustaja",
@@ -229,7 +229,7 @@
 		"PackageHelpText": "Alta löydät tilattavissa olevat tuotteet",
 		"PackageHelpText2": "Kun olet valinnut haluamasi tuotteen, sinun tulee valita maksutapa. Tilaus tulee voimaan onnistuneen maksusuorituksen jälkeen.",
 
-		"PackageHelpText3": "Huom! Ostoksesi prosessointiin kuluu normaalisti 5-10 minuuttia, jonka jälkeen pääset nauttimaan salibandysta!",
+		"PackageHelpText3": "Huom! Ostoksesi prosessointiin kuluu normaalisti 5-10 minuuttia, jonka jälkeen pääset nauttimaan paiecashplaysta!",
 		"PackageHelpTitle": "",
 		"PackageLoginForAccess": "Kirjaudu ostaaksesi lippuja. Lippusi lähetetään sähköpostiisi.",
 		"PackagePayment": "Maksu",
@@ -321,7 +321,7 @@
 	},
 	"settings": {
 		"visma": {
-			"helpText": "Huom! Tärkeä ohje: seuran oikea Submerchant ID -tunnus eli alikauppiastunnus löytyy Visma Payn kauppiasportaalista alasivulta Submerchant (ENG) / Alikauppiaat (FIN). Siellä on viisinumeroinen tunnus nimellä Submerchant-ID / Alikauppiastunnus – tämä tulee syöttää tälle SalibandyTV:n sivulle, muuten maksullisuus ei toimi oikein! Älä siis käytä seuran Visma Pay -kauppiastunnusta vaan alikauppiastunnusta.",
+			"helpText": "Huom! Tärkeä ohje: seuran oikea Submerchant ID -tunnus eli alikauppiastunnus löytyy Visma Payn kauppiasportaalista alasivulta Submerchant (ENG) / Alikauppiaat (FIN). Siellä on viisinumeroinen tunnus nimellä Submerchant-ID / Alikauppiastunnus – tämä tulee syöttää tälle Paiecashplay:n sivulle, muuten maksullisuus ei toimi oikein! Älä siis käytä seuran Visma Pay -kauppiastunnusta vaan alikauppiastunnusta.",
 
 			"submerchantId": "Visma Submerchant ID",
 			"updateFailure": "Asetusten tallennus epäonnistui",

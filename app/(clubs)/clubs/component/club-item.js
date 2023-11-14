@@ -14,7 +14,7 @@ const ClubItem = ({ club }) => {
 				<div
 					className={" bg-white flex justify-around items-center rounded-md  w-full flex-1 h-full "}
 				>
-					<div className="w-[60%] h-[100%] relative">
+					<div className="h-[100%] relative">
 						<Image
 							src={club.logoUrl ? club.logoUrl : "/images/default/default-club-logo.svg"}
 							alt="Home Team"

@@ -1,5 +1,4 @@
 import localFont from "next/font/local";
-import Script from "next/script";
 
 import { ReactQueryProvider } from "@/providers/react-query-provider";
 import { ReactCookiesProvider } from "@/providers/react-cookie-provider";
@@ -34,10 +33,13 @@ const proBold = localFont({
 export const metadata = {
 	metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL),
 
-	title: "SalibandyTV",
-	description: "Kaikki salibandylähetykset yhdessä paikassa",
+	title: "Paiecashplay",
+	description: "Paiecashplay ",
 	openGraph: {
-		images: ["/images/og-image/salibandy.png"],
+		images: ["/images/og-image/share.png"],
+
+		title: "Paiecashplay",
+		description: "Paiecashplay ",
 	},
 };
 
@@ -64,16 +66,6 @@ export default function RootLayout({ children }) {
 					</ReactNexti18nProvider>
 				</NextAuthSessionProvider>
 			</body>
-			<Script src="/script/quantcast.js" />
-			<Script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" defer async />
-			{/* <Script
-				src="https://gdpr-wrapper.privacymanager.io/gdpr/083f18ba-d2bb-4a65-875a-c6affee47d9d/gdpr-liveramp.js"
-				async
-			/> */}
-			<Script
-				src="https://popmedia-cdn.relevant-digital.com/static/tags/63df9ffda00507f7d7c51491.js"
-				async
-			/>
 
 			<GoogleAnalytics />
 		</html>

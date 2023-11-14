@@ -56,7 +56,7 @@ const LoginForm = ({ state, InputHandler, formSubmitHandler, loading, role }) =>
 			<Button
 				className={`w-full  min-h-[50px] text-md rounded-full font-probold`}
 				disabled={!state.isValid || loading || session?.data?.user?.user_id}
-				aria-label="Login to salibandy"
+				aria-label="Login to Paiecashplay"
 			>
 				{loading || session?.data?.user?.user_id ? (
 					<Translations text="shared.loading" />

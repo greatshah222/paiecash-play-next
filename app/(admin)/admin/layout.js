@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 
 export const metadata = {
 	title: "Admin Dashboard",
-	description: "SalibandyTV admin dashboard",
+	description: "Paiecashplay admin dashboard",
 };
 
 const LayoutAdmin = ({ children }) => {
