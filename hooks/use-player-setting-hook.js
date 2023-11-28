@@ -51,8 +51,8 @@ export const usePlayerSetting = () => {
 	const getPlayerSetting = async (playerConfig) => {
 		dispatch({
 			type: "licenseKey",
-			// payload: "Kl8lc3k9b3Y4MDJ5ZWk/cm9tNWRhc2lzMzBkYjBBJV8q",
-			payload: "Kl8lMD1jcys9a3o2Mjc5P3JvbTVkYXNpczMwZGIwQSVfKg==",
+			payload: "Kl8lc3k9b3Y4MDJ5ZWk/cm9tNWRhc2lzMzBkYjBBJV8q",
+			// payload: "Kl8lMD1jcys9a3o2Mjc5P3JvbTVkYXNpczMwZGIwQSVfKg==",
 		});
 		// skin
 		let curSkin = playerConfig?.items?.find((el) => el.title === "skin")?.value;

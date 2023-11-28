@@ -9,7 +9,7 @@ import { ReactNexti18nProvider } from "@/providers/react-next-i18n-provider";
 
 import LoginModal from "@/components/modal/LoginModal";
 import ClubCreationModal from "@/components/modal/club-creation-modal";
-import GoogleAnalytics from "@/components/google-analytics";
+// import GoogleAnalytics from "@/components/google-analytics";
 
 import Navbar from "@/components/Navbar/navbar";
 
@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
 				</NextAuthSessionProvider>
 			</body>
 
-			<GoogleAnalytics />
+			{/* <GoogleAnalytics /> */}
 		</html>
 	);
 }
